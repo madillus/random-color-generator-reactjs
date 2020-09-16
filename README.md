@@ -1,3 +1,11 @@
+Random color generator React Js
+
+A simple React js webpage to generate a random color and give you the associated Hex code.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
