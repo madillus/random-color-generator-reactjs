@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -14,34 +15,60 @@
 
 h1 {
 
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
 h2 {
 
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
 
 button {
 
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-flex: 5;
-background-color: transparent;
-border: none;
-color: rgb(0, 0, 0);
-padding: 10px 15px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 0px 0px;
-cursor: pointer;
-color: black;
-border: 0px solid black;
-border-radius: 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-end;
+  align-content: flex-end;
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+  color: black;
+  border: 0px solid black;
+  border-radius: 0px;
+
+
+}
+
+select {
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+  color: black;
+  border: 0px solid black;
+  border-radius: 0px;
 
 
 }
