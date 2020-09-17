@@ -1,22 +1,5 @@
-const hue = [
-  'color',
-  'red',
-  'blue',
-  'green',
-  'orange',
-  'violet',
-  'indigo',
-  'yellow'
-];
+const hue = ['red', 'blue', 'green', 'orange', 'violet', 'indigo', 'yellow'];
 
-const luminosity = [
-  'luminosity',
-  'light',
-  'dark',
-  'bright'
-];
+const luminosity = ['light', 'dark', 'bright'];
 
-export {
-  hue,
-  luminosity
-};
+export { hue, luminosity };
