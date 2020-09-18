@@ -40,12 +40,12 @@ const App = () => {
     >
       <h1> Random Color Generator </h1> <h2> {color} </h2>{' '}
       <select name="color" onChange={onHueChange}>
-        {hue.map((value, index) => {
+        {hue.map((value) => {
           return <option id={value}>{value}</option>;
         })}
       </select>
       <select name="luminosity" onChange={onLuminosityChange}>
-        {luminosity.map((value, index) => {
+        {luminosity.map((value) => {
           return <option id={value}>{value}</option>;
         })}
       </select>
